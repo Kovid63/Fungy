@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Logo'
+import Navtitles from './Navtitles'
 import Searchbar from './Searchbar'
 
 const styles = {
@@ -13,6 +14,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
          <Logo/>
          <Searchbar/>
+         <Navtitles/>
     </div>
   )
 }
