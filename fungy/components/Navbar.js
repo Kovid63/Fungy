@@ -1,8 +1,9 @@
 import React from 'react'
 import Logo from './Logo'
+import Searchbar from './Searchbar'
 
 const styles = {
-    navbar: `flex items-center justify-between shadow-xl p-5`,
+    navbar: `flex shadow-xl items-center h-16`,
 
 }
 
@@ -11,6 +12,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
          <Logo/>
+         <Searchbar/>
     </div>
   )
 }
